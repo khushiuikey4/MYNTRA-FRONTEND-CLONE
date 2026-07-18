@@ -1,0 +1,74 @@
+.studioDropDownContainer {
+    background-color: white;
+    position: fixed;
+    top: 80px;
+    z-index: 10000;
+    width: 40vw;
+    left: 300px;
+    min-height: 440px;
+    height: auto;
+    /* border: 1px solid black; */
+    /* box-shadow: inset 0 8px 10px -8px rgba(0, 0, 0, 0.2); */
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top: 1px solid black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.tvIcon {
+    color: #FF3F6C;
+    font-size: 38px;
+    line-height: 15px;
+}
+
+.studioTitle {
+    font-size: 38px;
+    line-height: 15px;
+    /* font-weight: 500; */
+    letter-spacing: -1px;
+}
+
+.studioTextContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 16px;
+    padding-bottom: 10px;
+}
+
+.studioImage {
+    width: 100%;
+    height: 60%;
+}
+
+
+.studioButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.exploreStudio {
+    outline: none;
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studioRightIcon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}

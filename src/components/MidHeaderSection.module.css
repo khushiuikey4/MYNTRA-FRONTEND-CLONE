@@ -1,0 +1,8 @@
+.midHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+    width: 1150px;
+    height: 100%;
+}

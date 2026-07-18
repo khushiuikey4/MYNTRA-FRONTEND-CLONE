@@ -1,0 +1,41 @@
+.navigation {
+    width: 100%;
+    max-width: 562px;
+    height: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+sup {
+    color: #FF3F6C;
+}
+
+.navLinkContainer {
+    height: 100%;
+    /* padding: 0 10px 0 10px; */
+    /* width: 50px; */
+    flex-grow: 1;
+}
+
+.navLinkBox {
+    align-items: center;
+    height: 96%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
+
+.navBottomLine {
+    height: 4%;
+    background-color: #FF3F6C;
+    width: 100%;
+}

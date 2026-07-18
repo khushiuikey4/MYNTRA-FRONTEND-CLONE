@@ -1,0 +1,11 @@
+.logoImg {
+    height: 50px;
+}
+
+.logoContainer {
+    padding: 10px;
+}
+
+.logoImg:hover {
+    cursor: pointer;
+}

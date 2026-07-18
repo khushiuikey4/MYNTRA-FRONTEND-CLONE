@@ -1,0 +1,87 @@
+.gridContainer {
+    background-color: #F6F8FB;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1.5fr;
+    /* padding: 0 100px 0 100px; */
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 15px;
+}
+
+
+.gridContainer a {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: normal;
+}
+
+.elem {
+    color: #696b79;
+    padding-bottom: 5px;
+    font-size: 16px;
+
+
+}
+
+.title {
+    color: #282c3f;
+    font-weight: 700;
+    padding: 10px 0 20px 0;
+    font-size: 15px;
+
+}
+
+
+.playSourceImg,
+.appSourceImg {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    color: #696b79;
+    font-size: 24px;
+}
+
+.gridCell {
+    padding: 10px;
+
+}
+
+.guaranteeBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.sealImage,
+.twoWayImage {
+    width: 65px;
+    height: 50px;
+    margin-right: 2px;
+}
+
+.sealImage img,
+.twoWayImage img {
+    width: 65px;
+    height: 50px;
+    background-color: #F6F8FB;
+}
+
+.highlight {
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 3px;
+    color: #282c3f;
+}
+
+.guaranteeText {
+    color: #696b79;
+
+}

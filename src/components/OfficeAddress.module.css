@@ -1,0 +1,30 @@
+.officeAddressContainer {
+    padding-top: 30px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.addressTitle {
+    font-weight: 700;
+    color: #282c3f;
+}
+
+.addressLinePin,
+.addressLinePh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+
+}
+
+.address {
+    color: #94969f;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+}
+
+.ph {
+    color: #526cd0;
+    font-weight: 700;
+}

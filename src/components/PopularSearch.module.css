@@ -1,0 +1,55 @@
+.popularSearchContainer {
+    /* border-bottom: 1px solid #F6F8FB; */
+    border-bottom: 1px solid #dddddd;
+    /* padding: 10px; */
+    padding-top: 0;
+
+}
+
+.popularSearchTitle {
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    background-color: #F6F8FB;
+    display: inline;
+    top: -13px;
+    padding: 10px 10px 10px 0;
+}
+
+.popularSearchKeywords {
+    padding-top: 10px;
+    overflow-wrap: break-word;
+}
+
+.keywordLink {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+.copyRightSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #94969f;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.footerContact {
+    text-decoration: none;
+    margin-left: 2px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #526cd0;
+}
+
+.companyName {
+    color: #94969f;
+    text-decoration: none;
+
+}

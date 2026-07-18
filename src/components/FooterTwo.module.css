@@ -1,0 +1,40 @@
+.FooterTwoContainer {
+    background-color: #F6F8FB;
+    width: 100%;
+    padding: 20px 200px 40px 200px;
+}
+
+.innerContainer {
+    background-color: #F6F8FB;
+
+}
+
+.outerContainer {}
+
+.innerContainer {}
+
+.bigTitle {
+    color: #535766;
+    font-weight: 700;
+}
+
+.footerText {
+    line-height: 18px;
+    color: #94969f;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.numberListOne {
+    list-style-type: decimal;
+}
+
+.smallTitle {
+    color: #535766;
+    font-weight: 700;
+}
+
+.footerText li {
+    padding: 8px;
+}

@@ -1,0 +1,149 @@
+.sideTagContainer {
+    position: fixed;
+    right: 0;
+    bottom: 130px;
+    width: 44px;
+    height: 288px;
+    background-color: #535766;
+    z-index: 6;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 5px;
+    flex-direction: column;
+
+}
+
+.sideDrawer {
+    height: 288px;
+    width: 50px;
+    position: fixed;
+    bottom: 130px;
+    width: 610px;
+    right: 0;
+    background: linear-gradient(to right, #fce4ec, #fff8e1);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+
+.offerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.offerImage {
+    width: 100%;
+    height: 50%;
+}
+
+.offerCardInfoContainer {
+    width: 100%;
+    height: 30%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.couponInfo {
+    color: #3e4152;
+}
+
+.couponCode {
+    font-weight: 700;
+}
+
+.couponButton {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+    width: 172px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #ff3f6c;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+}
+
+.couponButton:hover {
+    background-color: #e3486c;
+}
+
+.couponButton:active {
+    border: 1px solid #3e4152;
+}
+
+.offerBottomImage {
+    width: 100%;
+    height: 20%;
+}
+
+
+.couponText {
+    font-size: 14px;
+}
+
+.sideTagContainerInDrawer {
+    width: 44px;
+    height: 288px;
+    background-color: #535766;
+    z-index: 99;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 5px;
+    flex-direction: column;
+}
+
+
+
+.offer {
+    width: 36px;
+    padding: 4px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    -webkit-margin-after: 0;
+    margin-block-end: 0;
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    color: #fcfcfc;
+    display: inline-block;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+
+}
+
+.expandIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-left: 7px;
+}
+
+.shrinkIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-left: 7px;
+}

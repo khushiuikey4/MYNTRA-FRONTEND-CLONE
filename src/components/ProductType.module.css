@@ -1,0 +1,53 @@
+.productType {
+    font-size: large;
+    border: 5px solid #F6C99D;
+}
+
+.productType:hover {
+    cursor: pointer;
+}
+
+.imgContainer {
+    height: 200px;
+    padding: 2px;
+    background: linear-gradient(to right,
+            #FFFDF9 0%,
+            #FEF6EC 40%,
+            #FEEEDC 75%,
+            #FCE7D0 100%);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+img {
+    height: 200px;
+}
+
+.imageInfoContainer p {
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to right,
+            #FFFDF9 0%,
+            #FEF6EC 40%,
+            #FEEEDC 75%,
+            #FCE7D0 100%);
+    font-weight: 700;
+}
+
+.Type,
+.ShopNow {
+    font-size: 19px;
+}
+
+.Offer {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
