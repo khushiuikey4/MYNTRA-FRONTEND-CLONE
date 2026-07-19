@@ -36,40 +36,40 @@ import thirtyThree from "../Images/thirtyThree.png"
 function ProductTypeContainer() {
     return <div><div className={s.largeContainer}>
         <ProductType src={one} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={two} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={three} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={four} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={five} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={six} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={seven} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={eight} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={nine} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={ten} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={eleven} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twelve} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={thirteen} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={fourteen} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={fifteen} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={sixteen} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={seventeen} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={eighteen} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={nineteen} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twenty} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twentyOne} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twentyTwo} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twentyThree} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twentyFour} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twentyFive} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twentySix} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twentySeven} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twentyEight} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={twentyNine} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-        <ProductType src={thirty} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={two} type={"Casual Wear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={three} type={"Men's Active Wear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={four} type={"Women's Active Wear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={five} type={"Western Wear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={six} type={"Sports Wear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={seven} type={"LoungeWear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={eight} type={"InnerWear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={nine} type={"Lingerie"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={ten} type={"Watches"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={eleven} type={"Grooming"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twelve} type={"Beauty & Makeup"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={thirteen} type={"Kid's Wear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={fourteen} type={"Men's FootWear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={fifteen} type={"Women's FootWear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={sixteen} type={"Bags, Belts and Wallets"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={seventeen} type={"Office Wear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={eighteen} type={"Men's Ethnic Wear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={nineteen} type={"Home Decor"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twenty} type={"HandBags"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twentyOne} type={"HeadPhones & Speakers"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twentyTwo} type={"jewellery"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twentyThree} type={"Size Inclusive Styles"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twentyFour} type={"Inclusive Styles"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twentyFive} type={"Watch & Wearables"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twentySix} type={"Sleepwear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twentySeven} type={"Workwear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twentyEight} type={"EyeWear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={twentyNine} type={"Workwear"} offer={"50-70% OFF"}></ProductType>
+        <ProductType src={thirty} type={"Casual Styles"} offer={"50-70% OFF"}></ProductType>
     </div>
         <div className={s.flexContainer}>
-            <ProductType src={thirtyOne} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-            <ProductType src={thirtyTwo} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
-            <ProductType src={thirtyThree} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
+            <ProductType src={thirtyOne} type={"Bags & Backpacks"} offer={"50-70% OFF"}></ProductType>
+            <ProductType src={thirtyTwo} type={"Trolleys & luggage Bags"} offer={"50-70% OFF"}></ProductType>
+            <ProductType src={thirtyThree} type={"Flip Flops"} offer={"50-70% OFF"}></ProductType>
         </div>
     </div>;
 }

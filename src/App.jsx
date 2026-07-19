@@ -14,7 +14,7 @@ function App() {
   return <>
     <Header categoryHover={categoryHover} setCategoryHover={setCategoryHover} categoryListHover={categoryListHover} setCategoryListHover={setCategoveryListHover} categoryIndex={categoryIndex} setCategoryIndex={setCategoryIndex}></Header>
     <main>
-      <h1>Hello Git</h1>
+      {/* <h1>Hello Git</h1> */}
       <SideTag></SideTag>
       <NotificationIcon></NotificationIcon>
       <Hero></Hero>
