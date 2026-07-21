@@ -19,6 +19,7 @@
 
 .profileContainer:hover {
     cursor: pointer;
+    color: #FF3F6C;
 }
 
 .favContainer {
@@ -34,6 +35,7 @@
 
 .favContainer:hover {
     cursor: pointer;
+    color: #FF3F6C;
 }
 
 .bagContainer {
@@ -45,8 +47,11 @@
     flex-direction: column;
     height: 100%;
     padding-top: 20px;
+    font-size: 16px;
 }
 
 .bagContainer:hover {
     cursor: pointer;
+    color: #FF3F6C;
+
 }

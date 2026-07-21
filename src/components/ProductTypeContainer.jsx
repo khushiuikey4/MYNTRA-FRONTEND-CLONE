@@ -33,9 +33,12 @@ import thirty from "../Images/thirty.png"
 import thirtyOne from "../Images/thirtyOne.png"
 import thirtyTwo from "../Images/thirtyTwo.png"
 import thirtyThree from "../Images/thirtyThree.png"
+import { Link } from "react-router-dom"
 function ProductTypeContainer() {
     return <div><div className={s.largeContainer}>
-        <ProductType src={one} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
+        <Link to="EthnicSarees" className="routerLink">
+            <ProductType src={one} type={"Ethnic Sarees"} offer={"50-70% OFF"}></ProductType>
+        </Link>
         <ProductType src={two} type={"Casual Wear"} offer={"50-70% OFF"}></ProductType>
         <ProductType src={three} type={"Men's Active Wear"} offer={"50-70% OFF"}></ProductType>
         <ProductType src={four} type={"Women's Active Wear"} offer={"50-70% OFF"}></ProductType>

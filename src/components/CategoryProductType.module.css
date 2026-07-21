@@ -1,0 +1,111 @@
+.productType {
+    font-size: large;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.productType:hover {
+    cursor: pointer;
+}
+
+.imgContainer {
+    height: 250px;
+    padding: 2px;
+    background-color: white;
+    font-weight: 700;
+}
+
+.imgContainer img {
+    height: 250px;
+}
+
+.imageInfoContainer {
+    padding: 5px 15px 5px 15px;
+}
+
+.imageInfoContainer p {
+    margin: 5px 0 5px 0;
+    text-align: start;
+    background-color: white;
+}
+
+
+.Brand {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+.Title {
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+
+.Finalprice {
+    font-size: 15px;
+    font-weight: 700;
+    color: #282c3f;
+}
+
+.Price {
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.Discount {
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.addBagContainer {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBagButton {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 90%;
+    padding: 3px;
+    background-color: #FF3F6C;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.addBagButton:hover {
+    background-color: #E7335F;
+}
+
+.addBagButton:active {
+    background-color: #E7335F;
+    border: 1px solid #C92850;
+    color: gainsboro;
+}
+
+.ratingStar svg {
+    color: gold;
+    margin-bottom: 3px;
+}
