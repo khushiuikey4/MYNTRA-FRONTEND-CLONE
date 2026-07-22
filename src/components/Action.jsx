@@ -3,7 +3,9 @@ import { BsPersonFill } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
 import { SlHandbag } from "react-icons/sl";
 import { Link } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
 function Action() {
+    let bagItemList = useSelector((state) => state.bagProducts.list);
     return <>
         <div className={styles.actionContainer}>
             <div className={styles.profileContainer}>
@@ -20,7 +22,7 @@ function Action() {
                     <div className className="position-relative" >
                         <SlHandbag />
                         <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger ">
-                            10
+                            {bagItemList.length}
                         </span>
                     </div>
 

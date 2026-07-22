@@ -5,23 +5,16 @@ import { useDispatch, useSelector } from "react-redux";
 import { addItem, removeItem } from "../Store/productSlice";
 
 function categoryProductType({ productObj }) {
-    let [itemAdded, setItemAdded] = useState(false);
-    let buttonText = useRef(null);
+
     let dispatch = useDispatch();
     let bagItemList = useSelector((state) => state.bagProducts.list);
 
-    let handleProductAddToggle = (prodObj) => {
-        if (!itemAdded) {
-            dispatch(addItem(prodObj));
-            buttonText.current.textContent = "Remove from Bag";
-            buttonText.current.style.backgroundColor = "#8e3b46";
-            setItemAdded(true);
 
+    let handleProductAddToggle = (prodObj) => {
+        if (!bagItemList.includes(prodObj)) {
+            dispatch(addItem(prodObj));
         } else {
             dispatch(removeItem(prodObj));
-            buttonText.current.textContent = "Add to Bag";
-            buttonText.current.style.backgroundColor = "#FF3F6C";
-            setItemAdded(false);
         }
     }
     return <div className={s.productType}>
@@ -40,9 +33,19 @@ function categoryProductType({ productObj }) {
             </p>
         </div>
         <div className={s.addBagContainer}>
-            <button style={bagItemList.includes(productObj)
-                ? { backgroundColor: "#8e3b46" }
-                : {}} className={s.addBagButton} ref={buttonText} onClick={() => (handleProductAddToggle(productObj))}>Add to Bag</button>
+            <button
+                className={s.addBagButton}
+                style={{
+                    backgroundColor: bagItemList.includes(productObj)
+                        ? "#8e3b46"
+                        : "#FF3F6C"
+                }}
+                onClick={() => handleProductAddToggle(productObj)}
+            >
+                {bagItemList.includes(productObj)
+                    ? "Remove from Bag"
+                    : "Add to Bag"}
+            </button>
         </div>
     </div>
 }

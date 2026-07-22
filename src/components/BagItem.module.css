@@ -1,0 +1,143 @@
+.bagItemLayout {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    /* display: flex; */
+    align-items: stretch;
+    position: relative;
+}
+
+.bagItemImage {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bagItemImage img {
+    /* width: 120px; */
+    width: 100%;
+    /* height: 100%; */
+    flex: 1;
+}
+
+.bagItemInfo {}
+
+.bagItemBrand {
+    white-space: nowrap;
+    line-height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 5px 5px 0px;
+}
+
+.bagItemTitle {
+    font-size: 14px;
+    white-space: nowrap;
+    line-height: 16px;
+    color: #282c3f;
+    padding: 5px 5px 5px 0px;
+}
+
+.bagItemDescription {
+    font-size: 12px;
+    white-space: nowrap;
+    line-height: 16px;
+    color: #282c3f;
+    padding: 5px 5px 5px 0px;
+    color: #94969F;
+    text-wrap: wrap;
+}
+
+.bagItemSize {
+    line-height: 16px;
+    padding: 2px 8px;
+    background: #F5F5F6;
+    color: #282C3F;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline;
+    margin: 5px 5px 5px 0px;
+}
+
+.bagItemQuantity {
+    line-height: 16px;
+    padding: 2px 8px;
+    background: #F5F5F6;
+    color: #282C3F;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline;
+    margin: 5px 5px 5px 0px;
+
+}
+
+.bagItemStock {
+    font-size: 10px;
+    padding: 4px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    color: #ff5722;
+    font-weight: 700;
+    border: 1px solid #ff5722;
+    display: inline;
+    margin: 5px 5px 5px 0px;
+
+}
+
+.finalPrice {
+    color: #282C3F;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 10px 10px 0px;
+}
+
+.originalPrice {
+    font-size: 16px;
+    color: #535766;
+    text-decoration: line-through;
+    padding: 10px 10px 10px 0px;
+}
+
+.Discount {
+    color: #f16565;
+    font-size: 14px;
+    padding: 10px 10px 10px 0px;
+}
+
+.policy {
+    color: #282C3F;
+    font-size: 12px;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+    line-height: 15px;
+    white-space: pre-wrap;
+    padding: 5px 5px 5px 0px;
+}
+
+.removeItemIcon {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid transparent;
+}
+
+.removeItemIcon:hover {
+    color: black;
+}
