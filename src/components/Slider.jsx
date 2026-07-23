@@ -10,7 +10,7 @@ function Slider({ currIndx, setCurrIndx, enableTransition, setTransition }) {
     useEffect(() => {
         let t = setInterval(() => {
             setCurrIndx(prev => (prev + 1) % 5);
-        }, 5000);
+        }, 2000);
         return () => {
             clearInterval(t);
         }
