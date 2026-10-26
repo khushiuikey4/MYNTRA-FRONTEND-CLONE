@@ -2,11 +2,23 @@
     background-color: #F6F8FB;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1.5fr;
-    /* padding: 0 100px 0 100px; */
     border-bottom: 1px solid #cccccc;
     padding-bottom: 15px;
 }
 
+@media (max-width: 992px) {
+    .gridContainer {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gridContainer {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
 
 .gridContainer a {
     display: block;
@@ -18,19 +30,15 @@
 .elem {
     color: #696b79;
     padding-bottom: 5px;
-    font-size: 16px;
-
-
+    font-size: 14px;
 }
 
 .title {
     color: #282c3f;
     font-weight: 700;
-    padding: 10px 0 20px 0;
-    font-size: 15px;
-
+    padding: 10px 0 15px 0;
+    font-size: 14px;
 }
-
 
 .playSourceImg,
 .appSourceImg {
@@ -46,11 +54,11 @@
     align-items: center;
     color: #696b79;
     font-size: 24px;
+    flex-wrap: wrap;
 }
 
 .gridCell {
     padding: 10px;
-
 }
 
 .guaranteeBox {
@@ -60,28 +68,27 @@
     padding: 10px;
 }
 
-.sealImage,
-.twoWayImage {
-    width: 65px;
-    height: 50px;
-    margin-right: 2px;
+.guaranteeLogo {
+    height: 40px;
+    width: 48px;
+    margin-right: 10px;
 }
 
-.sealImage img,
-.twoWayImage img {
-    width: 65px;
-    height: 50px;
-    background-color: #F6F8FB;
+.guaranteeDetail {
+    color: #696b79;
+    font-size: 14px;
 }
 
-.highlight {
-    font-size: 17px;
-    font-weight: 700;
-    margin-right: 3px;
+.guaranteeDetail b {
     color: #282c3f;
 }
 
-.guaranteeText {
-    color: #696b79;
+.appDetail {
+    padding-bottom: 20px;
+}
 
+.appLogoContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }

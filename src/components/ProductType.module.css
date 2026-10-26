@@ -1,6 +1,8 @@
 .productType {
     font-size: large;
     border: 5px solid #F6C99D;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .productType:hover {
@@ -17,10 +19,16 @@
             #FCE7D0 100%);
     font-weight: 700;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .imgContainer img {
-    height: 200px;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .imageInfoContainer p {
@@ -36,11 +44,11 @@
 
 .Type,
 .ShopNow {
-    font-size: 19px;
+    font-size: clamp(14px, 1.2vw, 19px);
 }
 
 .Offer {
-    font-size: 25px;
+    font-size: clamp(18px, 1.6vw, 25px);
     font-weight: 800;
 }
 
@@ -50,4 +58,11 @@
     align-items: center;
     align-content: center;
     gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .imgContainer {
+        height: 160px;
+    }
 }

@@ -1,17 +1,38 @@
 .navigation {
-    width: 100%;
-    max-width: 562px;
-    height: 100%;
     display: flex;
-    /* justify-content: space-between; */
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    gap: 18px;
+    position: relative;
+    height: 100%;
+}
+
+@media (max-width: 1024px) {
+    .navigation {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 850px) {
+    .navigation {
+        gap: 8px;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .navigation::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 .navLink {
     text-decoration: none;
-    color: black;
+    color: #282c3f;
     font-weight: 700;
+    font-size: clamp(0.75rem, 1.1vw, 0.95rem);
+    letter-spacing: 0.3px;
+    white-space: nowrap;
 }
 
 sup {
@@ -20,9 +41,7 @@ sup {
 
 .navLinkContainer {
     height: 100%;
-    /* padding: 0 10px 0 10px; */
-    /* width: 50px; */
-    flex-grow: 1;
+    cursor: pointer;
 }
 
 .navLinkBox {
@@ -31,11 +50,11 @@ sup {
     width: 100%;
     justify-content: center;
     display: flex;
-
+    padding: 0 4px;
 }
 
 .navBottomLine {
-    height: 4%;
+    height: 4px;
     background-color: #FF3F6C;
     width: 100%;
 }

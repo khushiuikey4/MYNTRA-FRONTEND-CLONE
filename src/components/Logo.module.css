@@ -9,3 +9,13 @@
 .logoImg:hover {
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .logoImg {
+        height: 40px;
+    }
+
+    .logoContainer {
+        padding: 8px;
+    }
+}

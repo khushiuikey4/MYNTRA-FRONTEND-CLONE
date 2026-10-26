@@ -1,8 +1,7 @@
 .cara {
-    height: 510px;
+    height: auto;
     background-color: #F7F5F3;
     width: 100%;
-    overflow-x: auto;
 }
 
 .cara:hover {
@@ -11,7 +10,7 @@
 
 .dotBox {
     width: 100%;
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;

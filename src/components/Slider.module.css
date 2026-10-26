@@ -3,7 +3,6 @@
     height: 450px;
     overflow-x: hidden;
     overflow-y: hidden;
-
 }
 
 .slider::-webkit-scrollbar {
@@ -14,7 +13,6 @@
     display: flex;
     width: 500%;
     transition: transform 0.5s ease;
-    /* 4 images */
 }
 
 @keyframes slide {
@@ -32,4 +30,16 @@
     height: 450px;
     flex-shrink: 0;
     object-fit: cover;
+}
+
+@media (max-width: 900px) {
+    .slider, .caraImg {
+        height: 320px;
+    }
+}
+
+@media (max-width: 600px) {
+    .slider, .caraImg {
+        height: 200px;
+    }
 }
